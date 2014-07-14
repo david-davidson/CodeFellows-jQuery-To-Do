@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    font-family: 'Open Sans';
+    background-color: #3c6dc5;
+    color: white;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    margin-top: 100px;
+}
+
+ul {
+    display: inline-block;
+    cursor: move;
+    text-align: left;
+    max-width: 300px;
+}
+li {
+    color: lightgray;
+}
+
+li:first-child {
+    font-size: 130%;
+    color: white;
+}
