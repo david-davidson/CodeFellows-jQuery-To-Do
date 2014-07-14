@@ -14,8 +14,10 @@ ul {
     display: inline-block;
     cursor: move;
     text-align: left;
-    max-width: 300px;
+    width: 300px;
+    max-width: 100%;
 }
+
 li {
     color: lightgray;
 }
@@ -23,4 +25,13 @@ li {
 li:first-child {
     font-size: 130%;
     color: white;
+}
+
+input[type='submit'] {
+    background-color: red;
+    border: 0;
+    color: white;
+    padding: 5px 10px;
+    font-family: 'Open Sans';
+    cursor: pointer;
 }
